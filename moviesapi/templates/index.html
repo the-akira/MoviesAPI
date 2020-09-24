@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="top-container">
+	{% include '_nav.html' %}
+	{% include '_header.html' %}
+</div>
+<br>
+<h1 class="title">End Points</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md">
+      <h4>Movies</h4>
+      <a class="icone" href="/api/movies"><i class="fas fa-film fa-4x"></i></a>
+    </div>
+    <div class="col-md">
+      <h4>Directors</h4>
+      <a class="icone" href="/api/directors"><i class="fas fa-video fa-4x"></i></a>
+    </div>
+    <div class="col-md">
+      <h4>Actors</h4>
+      <a class="icone" href="/api/actors"><i class="fas fa-user-friends fa-4x"></i></a>
+    </div>
+    <div class="col-md">
+      <h4>Genres</h4>
+      <a class="icone" href="/api/genres"><i class="fas fa-venus-mars fa-4x"></i></a>
+    </div>
+  </div>
+</div>
+  {% include '_footer.html' %}
+{% endblock content %}

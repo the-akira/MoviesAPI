@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="top-container">
+	{% include '_nav.html' %}
+	{% include '_header.html' %}
+</div>
+<br>
+<h1 class="title">Documentation</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <ul class="list-group">
+          <li class="list-group-item"><a href="#intro">Introduction</a></li>
+          <li class="list-group-item"><a href="#start">Getting started</a></li>
+          <li class="list-group-item"><a href="#base">Base URL</a></li>
+          <li class="list-group-item"><a href="#rate">Rate limiting</a></li>
+          <li class="list-group-item"><a href="#auth">Authentication</a></li>
+          <li class="list-group-item"><a href="#schema">JSON Schema</a></li>
+          <li class="list-group-item"><a href="#search">Searching</a></li>
+      </ul>
+    </div>
+    <div class="col-md-7">
+    {% load markdown_deux_tags %}
+    {% markdown %}
+        {% include "docs.md" %}
+    {% endmarkdown %}
+    </div>
+  </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button> 
+  {% include '_footer.html' %}
+{% endblock content %}
+
+{% block scripts %}
+<script type="text/javascript">
+mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}   
+</script>
+{% endblock scripts %}
