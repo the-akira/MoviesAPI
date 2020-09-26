@@ -14,7 +14,7 @@ Movies API is an API focused on reading resources, for this reason we will use t
 There are several ways to execute HTTP requests, either through a web browser, a programming language like [Python](https://requests.readthedocs.io/en/master/) or [Javascript](https://github.com/axios/axios), or with software like [curl](https://github.com/curl/curl) or [httpie](https://httpie.org/). For this specific task we will use httpie for its simplicity. So let's start by asking for resources about the game genres. Open up your terminal and type
 
 ```
-http https://moviesapi.herokuapp.com/api/genres/
+http https://moovies.herokuapp.com/api/genres/
 ```
 
 We will immediately receive the following resource in response
@@ -80,7 +80,7 @@ As we can see, several game genres are returned to us with their respective ids 
 The base URL is the root URL of the API's and it can serve as a map to locate us and understand the resources that are at our disposal. The base URL for the Video Games API is as follows
 
 ```
-https://moviesapi.herokuapp.com/api/
+https://moovies.herokuapp.com/api/
 ```
 
 Consider this root URL as the basis for our future requests
@@ -102,7 +102,7 @@ The SearchFilter class supports simple single query parameter based searching, a
 Let's make an HTTP request to the following URL
 
 ```
-http http://moviesapi.herokuapp.com/api/movies/?search=Space
+http http://moovies.herokuapp.com/api/movies/?search=Space
 ```
 
 We will get a filtered response only from the movies we want
@@ -172,7 +172,7 @@ Movies API provides data through chunks that can be paged. Let's request the sec
 Let's request the following URL
 
 ```
-http https://moviesapi.herokuapp.com/api/genres/?page=2
+http https://moovies.herokuapp.com/api/genres/?page=2
 ```
 
 Immediately we obtain the respective data on the second page of Movies genres
@@ -223,7 +223,7 @@ Through pagination we can browse all available data.
 <a id="encoding"></a>
 ## Encoding
 
-JSON is the standard data format provided by Video Games API by default. You can see details about Schema at the following URL: [API Schema](https://moviesapi.herokuapp.com/api/schema/)
+JSON is the standard data format provided by Video Games API by default. You can see details about Schema at the following URL: [API Schema](https://moovies.herokuapp.com/api/schema/)
 
 - - -
 
@@ -235,7 +235,7 @@ The Root resource provides information on all available resources within the API
 Example request:
 
 ```
-http https://moviesapi.herokuapp.com/api/
+http https://moovies.herokuapp.com/api/
 ```
 
 We will get the following response:
@@ -280,7 +280,7 @@ A movie resource represents a movie object with several attributes
 Example request:
 
 ```
-http https://moviesapi.herokuapp.com/api/movies/1/
+http https://moovies.herokuapp.com/api/movies/1/
 ```
 
 We will get the following response:
@@ -364,7 +364,7 @@ A genre resource represents a movie genre
 Example request:
 
 ```
-http https://moviesapi.herokuapp.com/api/genres/
+http https://moovies.herokuapp.com/api/genres/
 ```
 
 We are going to receive the following response from the server:
@@ -543,7 +543,7 @@ We are requesting the actor which has the id 1. We will get the following respon
 
 API schemas are a useful tool that allow for a range of use cases, including generating reference documentation, or driving dynamic client libraries that can interact with your API.
 
-You can find Schema for the Movies API by visiting the following link: [Schema API](https://moviesapi.herokuapp.com/schema)
+You can find Schema for the Movies API by visiting the following link: [Schema API](https://moovies.herokuapp.com/schema)
 
 - - -
 
@@ -561,4 +561,4 @@ You can contribute to the Movies API project in several ways
 <a id="playground"></a>
 ## Playground
 
-Django Rest framework provides us with an interface that we can [try the API](https://moviesapi.herokuapp.com/api) without the need for any tool.
+Django Rest framework provides us with an interface that we can [try the API](https://moovies.herokuapp.com/api) without the need for any tool.

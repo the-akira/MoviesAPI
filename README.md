@@ -24,7 +24,7 @@ Start exploring or maybe improving our movies resources
 
 ## Documentation
 
-You can read the complete documentation at the following address **[Docs](https://moviesapi.herokuapp.com/documentation/)**
+You can read the complete documentation at the following address **[Docs](https://mooviesapi.herokuapp.com/documentation/)**
 
 ## Installation
 
