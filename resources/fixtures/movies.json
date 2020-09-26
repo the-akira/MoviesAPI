@@ -1,0 +1,78 @@
+[
+{
+    "model": "resources.movie",
+    "pk": 1,
+    "fields": {
+        "created": "2020-09-22T20:53:14.315Z",
+        "edited": "2020-09-22T20:53:14.316Z",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "synopsis": "The Lord of the Rings: The Fellowship of the Ring is a 2001 epic fantasy adventure film directed by Peter Jackson, based on the 1954 novel The Fellowship of the Ring, the first volume of J. R. R. Tolkien's The Lord of the Rings. The film is the first instalment in The Lord of the Rings trilogy. It was produced by Barrie M. Osborne, Jackson, Fran Walsh and Tim Sanders, and written by Walsh, Philippa Boyens and Jackson. The film features an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Billy Boyd, Dominic Monaghan, Orlando Bloom, Christopher Lee, Hugo Weaving, Sean Bean, Ian Holm, and Andy Serkis. It is followed by The Two Towers (2002) and The Return of the King (2003).",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/8/8a/The_Lord_of_the_Rings_The_Fellowship_of_the_Ring_%282001%29.jpg",
+        "trailer": "https://www.youtube.com/watch?v=V75dMMIW2B4",
+        "director": 2,
+        "release_date": "2001-12-10",
+        "running_time": "178 minutes",
+        "country": "New Zealand",
+        "language": "English",
+        "magnet": "magnet:?xt=urn:btih:E175ACD03B68BF0736DFC4B17D1D1496A455E01D&dn=The%20Lord%20of%20the%20Rings%3A%20The%20Fellowship%20of%20the%20Ring%20EXTENDED%20(2001&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce",
+        "cast": [
+            3,
+            4
+        ],
+        "genre": [
+            2,
+            6
+        ]
+    }
+},
+{
+    "model": "resources.movie",
+    "pk": 2,
+    "fields": {
+        "created": "2020-09-22T20:54:48.360Z",
+        "edited": "2020-09-22T20:54:48.360Z",
+        "title": "2001: A Space Odyssey",
+        "synopsis": "2001: A Space Odyssey is a 1968 British-American epic science fiction film produced and directed by Stanley Kubrick. The screenplay was written by Kubrick and Arthur C. Clarke, and was inspired by Clarke's 1951 short story \"The Sentinel\" and other short stories by Clarke. A novel released after the film's premiere was in part written concurrently with the screenplay. The film, which follows a voyage to Jupiter with the sentient computer HAL after the discovery of an alien monolith affecting human evolution, deals with themes of existentialism, human evolution, technology, artificial intelligence, and the possibility of extraterrestrial life.",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/2001_A_Space_Odyssey_%281968%29.png/220px-2001_A_Space_Odyssey_%281968%29.png",
+        "trailer": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+        "director": 1,
+        "release_date": "1968-04-02",
+        "running_time": "142 minutes",
+        "country": "United States of America",
+        "language": "English",
+        "magnet": "magnet:?xt=urn:btih:809B856531647878BEF0044AD04A785CBBEDF708&dn=2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce",
+        "cast": [
+            1,
+            2
+        ],
+        "genre": [
+            3
+        ]
+    }
+},
+{
+    "model": "resources.movie",
+    "pk": 3,
+    "fields": {
+        "created": "2020-09-22T22:24:13.305Z",
+        "edited": "2020-09-22T22:24:13.305Z",
+        "title": "The Lord of the Rings: The Two Towers",
+        "synopsis": "The Lord of the Rings: The Two Towers is a 2002 epic fantasy adventure film directed by Peter Jackson, based on the second volume of J. R. R. Tolkien's The Lord of the Rings. The film is the second instalment in The Lord of the Rings trilogy and was produced by Barrie M. Osborne, Fran Walsh and Jackson, and written by Walsh, Philippa Boyens, Stephen Sinclair and Jackson. The film features an ensemble cast including Elijah Wood, Ian McKellen, Liv Tyler, Viggo Mortensen, Sean Astin, Cate Blanchett, John Rhys-Davies, Bernard Hill, Christopher Lee, Billy Boyd, Dominic Monaghan, Orlando Bloom, Hugo Weaving, Miranda Otto, David Wenham, Brad Dourif, Karl Urban and Andy Serkis. It was preceded by The Fellowship of the Ring (2001) and followed by The Return of the King (2003).",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/d/d0/Lord_of_the_Rings_-_The_Two_Towers_%282002%29.jpg",
+        "trailer": "https://www.youtube.com/watch?v=cvCktPUwkW0",
+        "director": 2,
+        "release_date": "2002-12-05",
+        "running_time": "226 minutes",
+        "country": "New Zealand",
+        "language": "English",
+        "magnet": "magnet:?xt=urn:btih:EBDA5B39978F58B50B2666A808A11C971A9CF080&dn=The%20Lord%20of%20the%20Rings%3A%20The%20Two%20Towers%20%7BExtended%7D%20(2002)%201080p%20Br&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.to%3A2920%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pirateparty.gr%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.cyberia.is%3A6969%2Fannounce",
+        "cast": [
+            3,
+            4
+        ],
+        "genre": [
+            2
+        ]
+    }
+}
+]

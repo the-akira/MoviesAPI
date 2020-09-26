@@ -1,0 +1,119 @@
+[
+{
+    "model": "resources.genre",
+    "pk": 1,
+    "fields": {
+        "created": "2020-09-22T20:40:09.273Z",
+        "edited": "2020-09-22T20:40:09.273Z",
+        "name": "Horror"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 2,
+    "fields": {
+        "created": "2020-09-22T20:40:17.597Z",
+        "edited": "2020-09-22T20:40:17.597Z",
+        "name": "Adventure"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 3,
+    "fields": {
+        "created": "2020-09-22T20:40:26.990Z",
+        "edited": "2020-09-22T20:40:26.990Z",
+        "name": "Science Fiction"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 4,
+    "fields": {
+        "created": "2020-09-22T20:40:55.854Z",
+        "edited": "2020-09-22T20:40:55.854Z",
+        "name": "Action"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 5,
+    "fields": {
+        "created": "2020-09-22T20:41:03.487Z",
+        "edited": "2020-09-22T20:41:03.487Z",
+        "name": "Drama"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 6,
+    "fields": {
+        "created": "2020-09-22T20:41:06.927Z",
+        "edited": "2020-09-22T20:41:06.927Z",
+        "name": "Fantasy"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 7,
+    "fields": {
+        "created": "2020-09-22T20:41:15.805Z",
+        "edited": "2020-09-22T20:41:15.805Z",
+        "name": "Historical"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 8,
+    "fields": {
+        "created": "2020-09-22T20:41:25.184Z",
+        "edited": "2020-09-22T20:41:25.184Z",
+        "name": "Mystery"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 9,
+    "fields": {
+        "created": "2020-09-22T20:41:31.598Z",
+        "edited": "2020-09-22T20:41:31.598Z",
+        "name": "Romance"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 10,
+    "fields": {
+        "created": "2020-09-22T20:41:42.545Z",
+        "edited": "2020-09-22T20:41:42.545Z",
+        "name": "Thriller"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 11,
+    "fields": {
+        "created": "2020-09-22T20:42:51.912Z",
+        "edited": "2020-09-22T20:42:51.912Z",
+        "name": "Musical"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 12,
+    "fields": {
+        "created": "2020-09-22T20:42:55.776Z",
+        "edited": "2020-09-22T20:42:55.776Z",
+        "name": "Documentary"
+    }
+},
+{
+    "model": "resources.genre",
+    "pk": 13,
+    "fields": {
+        "created": "2020-09-22T20:43:01.985Z",
+        "edited": "2020-09-22T20:43:01.986Z",
+        "name": "War"
+    }
+}
+]

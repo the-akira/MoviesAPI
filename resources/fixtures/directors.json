@@ -1,0 +1,35 @@
+[
+{
+    "model": "resources.director",
+    "pk": 1,
+    "fields": {
+        "created": "2020-09-22T20:45:06.888Z",
+        "edited": "2020-09-22T20:45:06.888Z",
+        "name": "Stanley Kubrick",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/d/da/KubrickForLook_%28cropped%29.jpg",
+        "country": "United States of America"
+    }
+},
+{
+    "model": "resources.director",
+    "pk": 2,
+    "fields": {
+        "created": "2020-09-22T20:45:54.706Z",
+        "edited": "2020-09-22T20:45:54.706Z",
+        "name": "Peter Jackson",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Peter_Jackson_SDCC_2014.jpg/800px-Peter_Jackson_SDCC_2014.jpg",
+        "country": "New Zealand"
+    }
+},
+{
+    "model": "resources.director",
+    "pk": 3,
+    "fields": {
+        "created": "2020-09-22T20:47:09.170Z",
+        "edited": "2020-09-22T20:47:09.170Z",
+        "name": "Andrei Arsenyevich Tarkovsky",
+        "photo": "https://assets.mubicdn.net/images/cast_member/1039/image-original.jpg?1337461025",
+        "country": "Russia"
+    }
+}
+]

@@ -1,0 +1,46 @@
+[
+{
+    "model": "resources.actor",
+    "pk": 1,
+    "fields": {
+        "created": "2020-09-22T20:48:05.479Z",
+        "edited": "2020-09-22T20:48:05.479Z",
+        "name": "Keir Atwood Dullea",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Keir_Dullea_Denver_Pyle_1962_%28cropped%29.JPG",
+        "country": "United States of America"
+    }
+},
+{
+    "model": "resources.actor",
+    "pk": 2,
+    "fields": {
+        "created": "2020-09-22T20:48:25.388Z",
+        "edited": "2020-09-22T20:48:25.388Z",
+        "name": "Gary Lockwood",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Gary_Lockwood_in_1962.jpg/220px-Gary_Lockwood_in_1962.jpg",
+        "country": "United States of America"
+    }
+},
+{
+    "model": "resources.actor",
+    "pk": 3,
+    "fields": {
+        "created": "2020-09-22T20:48:50.702Z",
+        "edited": "2020-09-22T20:48:50.702Z",
+        "name": "Elijah Wood",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Elijah_Wood_%2847955399861%29_%28cropped%29.jpg/220px-Elijah_Wood_%2847955399861%29_%28cropped%29.jpg",
+        "country": "United States of America"
+    }
+},
+{
+    "model": "resources.actor",
+    "pk": 4,
+    "fields": {
+        "created": "2020-09-22T20:49:32.549Z",
+        "edited": "2020-09-22T20:49:32.549Z",
+        "name": "Ian Murray McKellen",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/SDCC13_-_Ian_McKellen.jpg/800px-SDCC13_-_Ian_McKellen.jpg",
+        "country": "England"
+    }
+}
+]
