@@ -440,7 +440,7 @@ A director resource represents a movie director
 Example request:
 
 ```
-http https://movies.herokuapp.com/api/directors/?search=Stanley
+http https://mooviesapi.herokuapp.com/api/directors/?search=Stanley
 ```
 
 Realize that we have searched for a director by his name through the search filter funcionality and we will get the following response:
@@ -499,7 +499,7 @@ A actor resource represents a movie actor
 Example request:
 
 ```
-http https://movies.herokuapp.com/api/actors/1/
+http https://mooviesapi.herokuapp.com/api/actors/1/
 ```
 
 We are requesting the actor which has the id 1. We will get the following response:
