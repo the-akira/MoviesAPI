@@ -59,3 +59,7 @@ class Screenshot(DateTimeModel):
     """Model representing a movie screenshot"""
     url = models.CharField(max_length=1000, default="")
     movie = models.ForeignKey(Movie, related_name='screenshots', on_delete=models.CASCADE)
+
+    def __str__(self):
+        """String for representing the Model object."""
+        return self.url

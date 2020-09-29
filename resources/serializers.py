@@ -20,7 +20,7 @@ class MovieSerializer(serializers.ModelSerializer):
 	director = serializers.StringRelatedField()
 	cast = serializers.StringRelatedField(many=True)
 	genre = serializers.StringRelatedField(many=True)
-	screenshots = ScreenshotSerializer(many=True)
+	screenshots = serializers.StringRelatedField(many=True)
 
 	class Meta:
 		model = Movie 
