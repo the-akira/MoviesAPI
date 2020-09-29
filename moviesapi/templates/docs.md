@@ -11,7 +11,7 @@ Welcome to the <span>Movies API Documentation</span> here you will better unders
 
 Movies API is an API focused on reading resources, for this reason we will use the [GET method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET) with it in most scenarios to obtain our resources in JSON format and use it in the way that is most convenient for us.
 
-There are several ways to execute HTTP requests, either through a web browser, a programming language like [Python](https://requests.readthedocs.io/en/master/) or [Javascript](https://github.com/axios/axios), or with software like [curl](https://github.com/curl/curl) or [httpie](https://httpie.org/). For this specific task we will use httpie for its simplicity. So let's start by asking for resources about the game genres. Open up your terminal and type
+There are several ways to execute HTTP requests, either through a web browser, a programming language like [Python](https://requests.readthedocs.io/en/master/) or [Javascript](https://github.com/axios/axios), or with software like [curl](https://github.com/curl/curl) or [httpie](https://httpie.org/). For this specific task we will use httpie for its simplicity. So let's start by asking for resources about movie genres. Open up your terminal and type
 
 ```
 http https://mooviesapi.herokuapp.com/api/genres/
@@ -77,7 +77,7 @@ As we can see, several game genres are returned to us with their respective ids 
 <a id="base"></a>
 ## Base URL
 
-The base URL is the root URL of the API's and it can serve as a map to locate us and understand the resources that are at our disposal. The base URL for the Video Games API is as follows
+The base URL is the root URL of the API's and it can serve as a map to locate us and understand the resources that are at our disposal. The base URL for the Movies API is as follows
 
 ```
 https://mooviesapi.herokuapp.com/api/
@@ -223,7 +223,7 @@ Through pagination we can browse all available data.
 <a id="encoding"></a>
 ## Encoding
 
-JSON is the standard data format provided by Video Games API by default. You can see details about Schema at the following URL: [API Schema](https://mooviesapi.herokuapp.com/api/schema/)
+JSON is the standard data format provided by Movies API by default. You can see details about Schema at the following URL: [API Schema](https://mooviesapi.herokuapp.com/api/schema/)
 
 - - -
 
