@@ -124,6 +124,7 @@ body {
   border: 1px solid white;
   padding: 2px 6px 3px 6px;
   list-style-type: none;
+  background-color: #262626;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
