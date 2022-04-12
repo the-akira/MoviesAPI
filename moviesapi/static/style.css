@@ -1,6 +1,6 @@
 body {
   background-color: #2a2b2b;
-  background-image: url('https://i.ibb.co/VLfgrt9/masks.png');
+  background-image: url('https://raw.githubusercontent.com/the-akira/MoviesAPI/master/moviesapi/static/masks.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top right;
@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  background-image: url('https://i.ibb.co/MCpWPLf/checker.jpg');
+  background-image: url('https://raw.githubusercontent.com/the-akira/MoviesAPI/master/moviesapi/static/checker%20.jpg');
   max-width: 100%;
   padding: 30px;
   border-top: 3px solid #FA7233;
