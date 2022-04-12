@@ -1,7 +1,7 @@
 <h1 align="center">Movies API</h1>
 
 <h1 align="center">
-    <img alt="avatar" src="https://i.ibb.co/68W8KyM/avatar3.png"> </br>
+    <img alt="avatar" src="https://raw.githubusercontent.com/the-akira/MoviesAPI/master/moviesapi/static/avatar3.png"> </br>
 </h1>
 
 <p align="center">Movies API seeks to bring resources related to the Movies Universe</p> 
